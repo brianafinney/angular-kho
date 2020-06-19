@@ -1,6 +1,11 @@
-﻿
+﻿import { DivisionRoleUserPermission } from "./division-role-user-permission.model";
+import { PermissionRole } from "./permission-role.model";
+import { PermissionType } from "./permission-type.model";
+import { Division } from "./division.model";
+import { GraphUser } from "./graph-user.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -11,11 +16,11 @@ export class DivisionPermissionType {
 	public permissionRoleId: number;
 	public graphUserId: number;
 	public divisionId: number;
-	public divisionRoleUserPermission: Models.DivisionRoleUserPermission;
-	public permissionRole: Models.PermissionRole;
-	public permissionType: Models.PermissionType;
-	public division: Models.Division;
-	public graphUser: Models.GraphUser;
+	public divisionRoleUserPermission: DivisionRoleUserPermission;
+	public permissionRole: PermissionRole;
+	public permissionType: PermissionType;
+	public division: Division;
+	public graphUser: GraphUser;
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

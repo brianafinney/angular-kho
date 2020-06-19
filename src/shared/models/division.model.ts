@@ -1,6 +1,10 @@
-﻿
+﻿import { DivisionRoleUserPermission } from "./division-role-user-permission.model";
+import { DivisionPermissionType } from "./division-permission-type.model";
+import { AVO } from "./avo.model";
+import { Branch } from "./branch.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -11,10 +15,10 @@ export class Division {
 	public code: string;
 	public divisionId: number;
 	public description: string;
-	public branch: Models.Branch;
-	public avos: Models.AVO[];
-	public divisionRolePermissions: Models.DivisionRoleUserPermission[];
-	public divisionPermissionTypes: Models.DivisionPermissionType[];
+	public branch: Branch;
+	public avos: AVO[];
+	public divisionRolePermissions: DivisionRoleUserPermission[];
+	public divisionPermissionTypes: DivisionPermissionType[];
 	public id: number;
 	public isCentralStation: boolean;
 	public insertedBy: string;

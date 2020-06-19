@@ -1,6 +1,11 @@
-﻿
+﻿import { GraphUserSessionStorage } from "./graph-user-session-storage.model";
+import { UserPermissions } from "./user-permissions.model";
+import { DivisionRoleUserPermission } from "./division-role-user-permission.model";
+import { UserRoleTypePermission } from "./user-role-type-permission.model";
+import { DivisionPermissionType } from "./division-permission-type.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -35,11 +40,11 @@ export class GraphUser {
 	public photo: string;
 	public photoType: string;
 	public settings: string;
-	public sessionStorageInfo: Models.GraphUserSessionStorage[];
-	public userPermissions: Models.UserPermissions[];
-	public divisionRolePermissions: Models.DivisionRoleUserPermission[];
-	public userRoleTypePermissions: Models.UserRoleTypePermission[];
-	public divisionPermissionTypes: Models.DivisionPermissionType[];
+	public sessionStorageInfo: GraphUserSessionStorage[];
+	public userPermissions: UserPermissions[];
+	public divisionRolePermissions: DivisionRoleUserPermission[];
+	public userRoleTypePermissions: UserRoleTypePermission[];
+	public divisionPermissionTypes: DivisionPermissionType[];
 
 
 }

@@ -1,6 +1,6 @@
 ﻿
 
-import * as Models from '@models/index';
+
 
 
 /**/
@@ -8,7 +8,7 @@ export class RoleGroupInfoDTO {
     constructor(  ){}        
        
 	public displayName: string;
-	public members: Models.RoleGroupMemberInfoDTO[];
+	public members: RoleGroupMemberInfoDTO[];
 
 
 }

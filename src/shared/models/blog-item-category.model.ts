@@ -1,6 +1,8 @@
-﻿
+﻿import { BlogItem } from "./blog-item.model";
+import { BlogCategory } from "./blog-category.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -8,9 +10,9 @@ export class BlogItemCategory {
     constructor(  ){}        
        
 	public blogItemId: number;
-	public blogItem: Models.BlogItem;
+	public blogItem: BlogItem;
 	public blogCategoryId: number;
-	public blogCategory: Models.BlogCategory;
+	public blogCategory: BlogCategory;
 
 
 }

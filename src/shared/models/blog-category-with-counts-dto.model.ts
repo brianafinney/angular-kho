@@ -1,13 +1,14 @@
-﻿
+﻿import { BlogCategory } from "./blog-category.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class BlogCategoryWithCountsDTO {
     constructor(  ){}        
        
-	public blogCategory: Models.BlogCategory;
+	public blogCategory: BlogCategory;
 	public blogCount: number;
 
 

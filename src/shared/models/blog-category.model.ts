@@ -1,13 +1,14 @@
-﻿
+﻿import { BlogItemCategory } from "./blog-item-category.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class BlogCategory {
     constructor(  ){}        
        
-	public blogItemCategories: Models.BlogItemCategory[];
+	public blogItemCategories: BlogItemCategory[];
 	public categoryName: string;
 	public isDeleted: boolean;
 	public id: number;

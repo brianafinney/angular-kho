@@ -1,14 +1,16 @@
-﻿
+﻿import { BlogItemCategory } from "./blog-item-category.model";
+import { BlogItemFile } from "./blog-item-file.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class BlogItem {
     constructor(  ){}        
        
-	public blogItemFiles: Models.BlogItemFile[];
-	public blogItemCategories: Models.BlogItemCategory[];
+	public blogItemFiles: BlogItemFile[];
+	public blogItemCategories: BlogItemCategory[];
 	public title: string;
 	public author: string;
 	public summary: string;

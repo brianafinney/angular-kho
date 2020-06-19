@@ -1,6 +1,9 @@
-﻿
+﻿import { Division } from "./division.model";
+import { Region } from "./region.model";
+import { ContactInfo } from "./contact-info.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -10,9 +13,9 @@ export class Branch {
 	public name: string;
 	public code: string;
 	public description: string;
-	public contactInfo: Models.ContactInfo;
-	public region: Models.Region;
-	public divisions: Models.Division[];
+	public contactInfo: ContactInfo;
+	public region: Region;
+	public divisions: Division[];
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

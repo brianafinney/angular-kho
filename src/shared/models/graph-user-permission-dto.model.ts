@@ -1,6 +1,10 @@
-﻿
+﻿import { DivisionPermissionType } from "./division-permission-type.model";
+import { UserRoleTypePermission } from "./user-role-type-permission.model";
+import { SessionStoragePermission } from "./session-storage-permission.model";
+import { UserRolePermissionDivisionMatrix } from "./user-role-permission-division-matrix.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -13,10 +17,10 @@ export class GraphUserPermissionDTO {
 	public isSuperUser: boolean;
 	public permissionRoleName: string;
 	public permissionRoleId: number;
-	public divisionPermissionTypes: Models.DivisionPermissionType[];
-	public userRoleTypePermissions: Models.UserRoleTypePermission[];
-	public sessionStoragePermissionInfo: Models.SessionStoragePermission[];
-	public divisionRolePermissions: Models.UserRolePermissionDivisionMatrix[];
+	public divisionPermissionTypes: DivisionPermissionType[];
+	public userRoleTypePermissions: UserRoleTypePermission[];
+	public sessionStoragePermissionInfo: SessionStoragePermission[];
+	public divisionRolePermissions: UserRolePermissionDivisionMatrix[];
 
 }
 

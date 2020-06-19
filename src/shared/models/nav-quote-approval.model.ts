@@ -1,6 +1,7 @@
-﻿
+﻿import { NavQuoteAction } from "./nav-quote-action.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -16,7 +17,7 @@ export class NavQuoteApproval {
 	public initialNeededRoleActions: string;
 	public remainingNeededRoleActionsList: number[];
 	public remainingNeededRoleActions: string;
-	public approvalActions: Models.NavQuoteAction[];
+	public approvalActions: NavQuoteAction[];
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

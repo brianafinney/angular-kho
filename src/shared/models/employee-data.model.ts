@@ -1,6 +1,7 @@
-﻿
+﻿import { Address } from "./address.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -12,7 +13,7 @@ export class EmployeeData {
 	public username: string;
 	public firstName: string;
 	public lastName: string;
-	public address: Models.Address;
+	public address: Address;
 	public homePhone: string;
 	public mobilePhone: string;
 	public workPhone: string;

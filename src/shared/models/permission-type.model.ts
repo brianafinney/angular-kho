@@ -1,6 +1,9 @@
-﻿
+﻿import { RolePermissions } from "./role-permissions.model";
+import { UserRoleTypePermission } from "./user-role-type-permission.model";
+import { DivisionPermissionType } from "./division-permission-type.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -9,9 +12,9 @@ export class PermissionType {
        
 	public id: number;
 	public permission: string;
-	public rolePermissions: Models.RolePermissions[];
-	public userRoleTypePermissions: Models.UserRoleTypePermission[];
-	public divisionPermissionTypes: Models.DivisionPermissionType[];
+	public rolePermissions: RolePermissions[];
+	public userRoleTypePermissions: UserRoleTypePermission[];
+	public divisionPermissionTypes: DivisionPermissionType[];
 
 
 }

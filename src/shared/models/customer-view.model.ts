@@ -1,6 +1,7 @@
-﻿
+﻿import { Division } from "./division.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -18,7 +19,7 @@ export class CustomerView {
 	public phone: string;
 	public divisionId: number;
 	public billTo: string;
-	public division: Models.Division;
+	public division: Division;
 
 
 }

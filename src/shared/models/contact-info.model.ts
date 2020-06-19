@@ -1,6 +1,9 @@
-﻿
+﻿import { Telephone } from "./telephone.model";
+import { Address } from "./address.model";
+import { Email } from "./email.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -8,9 +11,9 @@ export class ContactInfo {
     constructor(  ){}        
        
 	public description: string;
-	public addresses: Models.Address[];
-	public phoneNumbers: Models.Telephone[];
-	public emails: Models.Email[];
+	public addresses: Address[];
+	public phoneNumbers: Telephone[];
+	public emails: Email[];
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

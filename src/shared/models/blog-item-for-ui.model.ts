@@ -1,11 +1,15 @@
-import * as Models from '@models/index';
+import { ImageDTO } from "./image-dto.model";
+import { BlogCategory } from "./blog-category.model";
+import { BlogItemCategory } from "./blog-item-category.model";
+import { BlogItemFile } from "./blog-item-file.model";
+
 export class BlogItemForUI {
     constructor(  ){}        
        
-	public blogItemFiles: Models.BlogItemFile[];
-	public blogItemCategories: Models.BlogItemCategory[];
-	public blogCategories: Models.BlogCategory[];
-	public blogImages: Models.ImageDTO[];
+	public blogItemFiles: BlogItemFile[];
+	public blogItemCategories: BlogItemCategory[];
+	public blogCategories: BlogCategory[];
+	public blogImages: ImageDTO[];
 	public title: string;
 	public author: string;
 	public summary: string;

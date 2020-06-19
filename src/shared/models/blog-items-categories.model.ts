@@ -2,6 +2,7 @@
 
 
 import * as Models from './'
+import { BlogCategory, BlogItem } from './';
 
 
 /**/
@@ -10,8 +11,8 @@ export class BlogItemsCategories {
     public id: number;   
 	public blogItemID: number;
 	public blogCategoryID: number;
-	public blogCategory: Models.BlogCategory;
-	public blogItem: Models.BlogItem;  
+	public blogCategory: BlogCategory;
+	public blogItem: BlogItem;  
 }
 
 

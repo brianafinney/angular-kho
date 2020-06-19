@@ -1,5 +1,6 @@
+import { GraphUserPermissionDTO } from "./graph-user-permission-dto.model";
 
-import * as Models from '@models/index';
+
 
 export class PermissedUser {
   constructor() { }
@@ -7,7 +8,7 @@ export class PermissedUser {
   public displayName: string;
   public isSuperUser: boolean;
   public currentRoleId: number;
-  public permissions: Models.GraphUserPermissionDTO[];
+  public permissions: GraphUserPermissionDTO[];
 }
 
 

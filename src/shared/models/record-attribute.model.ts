@@ -1,13 +1,14 @@
-﻿
+﻿import { TypeOfAttribute } from "./type-of-attribute.enum";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class RecordAttribute {
     constructor(  ){}        
        
-	public attributeType: Models.TypeOfAttribute;
+	public attributeType: TypeOfAttribute;
 	public recordId: number;
 	public name: string;
 	public values: string;

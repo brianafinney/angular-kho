@@ -1,6 +1,7 @@
-﻿
+﻿import { Division } from "./division.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -14,7 +15,7 @@ export class AVO {
 	public isActive: boolean;
 	public startDate?: Date;
 	public endDate?: Date;
-	public division?: Models.Division;
+	public division?: Division;
 	public id?: number;
 	public insertedBy: string;
 	public dateInserted?: Date;

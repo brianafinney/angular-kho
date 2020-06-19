@@ -1,13 +1,14 @@
-﻿
+﻿import { TypeOfAlert } from "./type-of-alert.enum";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class PortalAlert {
     constructor(  ){}        
        
-	public alertType: Models.TypeOfAlert;
+	public alertType: TypeOfAlert;
 	public heading: string;
 	public message: string;
 	public startAlert: Date;

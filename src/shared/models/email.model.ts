@@ -1,15 +1,17 @@
-﻿
+﻿import { ContactInfo } from "./contact-info.model";
+import { TypeOfEmail } from "./type-of-address.enum";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class Email {
     constructor(  ){}        
        
-	public emailType: Models.TypeOfEmail;
+	public emailType: TypeOfEmail;
 	public emailAddress: string;
-	public contactInfo: Models.ContactInfo;
+	public contactInfo: ContactInfo;
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

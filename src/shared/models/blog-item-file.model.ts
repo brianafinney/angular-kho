@@ -1,6 +1,8 @@
-﻿
+﻿import { BlogItem } from "./blog-item.model";
+import { UploadedFile } from "./uploaded-file.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -9,9 +11,9 @@ export class BlogItemFile {
        
 	public id: number;
 	public blogItemId: number;
-	public blogItem: Models.BlogItem;
+	public blogItem: BlogItem;
 	public fileId: string;
-	public file: Models.UploadedFile;
+	public file: UploadedFile;
 
 
 }

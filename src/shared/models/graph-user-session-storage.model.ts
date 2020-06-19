@@ -1,13 +1,14 @@
-﻿
+﻿import { SessionStoragePermission } from "./session-storage-permission.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class GraphUserSessionStorage {
     constructor(  ){}        
        
-	public permissions: Models.SessionStoragePermission[];
+	public permissions: SessionStoragePermission[];
 
 
 }

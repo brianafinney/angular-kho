@@ -1,6 +1,6 @@
 ﻿
 
-import * as Models from '@models/index';
+
 
 
 /**/
@@ -10,9 +10,9 @@ export class DataTablesRequestDTO {
 	public draw: number;
 	public length: number;
 	public start: number;
-	public columns: Models.DataTableColumnDTO[];
-	public order: Models.DataTableColumnOrderDTO[];
-	public search: Models.DataTableColumnSearchDTO;
+	public columns: DataTableColumnDTO[];
+	public order: DataTableColumnOrderDTO[];
+	public search: DataTableColumnSearchDTO;
 
 
 }
@@ -34,7 +34,7 @@ export class DataTableColumnDTO {
 	public data: string;
 	public name: string;
 	public orderable: boolean;
-	public search: Models.DataTableColumnSearchDTO;
+	public search: DataTableColumnSearchDTO;
 	public searchable: boolean;
 
 

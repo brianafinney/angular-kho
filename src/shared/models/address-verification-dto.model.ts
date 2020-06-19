@@ -1,14 +1,16 @@
-﻿
+﻿import { ActiveCustomerPanelsWithMas } from "./active-customer-panels-with-mas.model";
+import { Address } from "./address.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class AddressVerificationDTO {
     constructor(  ){}        
        
-	public originalData: Models.ActiveCustomerPanelsWithMas;
-	public verifiedData: Models.Address;
+	public originalData: ActiveCustomerPanelsWithMas;
+	public verifiedData: Address;
 
 
 }
