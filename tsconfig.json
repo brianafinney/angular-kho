@@ -1,23 +1,39 @@
 {
-  "compileOnSave": false,
+   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "importHelpers": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2015",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "target": "ES2015",
     "typeRoots": [
       "node_modules/@types"
     ],
     "lib": [
-      "es2018",
-      "dom"
-    ]
+      "esnext",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "baseUrl": "./",
+    "rootDirs": [
+      "src/app",
+      "src/shared",
+      "src/shared/models",
+      "src/shared/data"
+    ],
+    "paths": {
+      //"core-js/es7/reflect": [ "node_modules/@angular-devkit/build-angular/node_modules/core-js/proposals/reflect-metadata" ],
+      "@angular": [ "node_modules/@angular/*" ],
+      "@app/*": [ "src/app/*" ],      
+      "@models/*": [ "src/shared/models/*" ],   
+      "@data/*": [ "src/shared/data/*" ],   
+      "@shared/*": [ "src/shared/*" ]
+    }
   },
   "angularCompilerOptions": {
     "enableIvy": true,
