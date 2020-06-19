@@ -1,5 +1,9 @@
-import * as Models from './index';
+﻿
 
+import * as Models from '@models/index';
+
+
+/**/
 export class GraphUser {
     constructor(  ){}        
        
