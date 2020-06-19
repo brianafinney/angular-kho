@@ -1,10 +1,11 @@
-﻿
+﻿import { WorkflowSchemeDTO } from "./workflow-scheme-dto.model";
 
-import * as Models from '@models/index';
+
+
 
 /**/
 export class WorkflowSchemesOutputDTO{
         
-	public schemes: Models.WorkflowSchemeDTO[];
+	public schemes: WorkflowSchemeDTO[];
 
     }

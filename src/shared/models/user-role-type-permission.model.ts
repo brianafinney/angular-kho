@@ -1,6 +1,9 @@
-﻿
+﻿import { GraphUser } from "./graph-user.model";
+import { PermissionRole } from "./permission-role.model";
+import { PermissionType } from "./permission-type.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -10,9 +13,9 @@ export class UserRoleTypePermission {
 	public permissionRoleId: number;
 	public graphUserId: number;
 	public permissionTypeId: number;
-	public permissionType: Models.PermissionType;
-	public permissionRole: Models.PermissionRole;
-	public graphUser: Models.GraphUser;
+	public permissionType: PermissionType;
+	public permissionRole: PermissionRole;
+	public graphUser: GraphUser;
 	public insertedBy: string;
 	public dateInserted: Date;
 	public modifiedBy: string;

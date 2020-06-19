@@ -1,6 +1,8 @@
-﻿
+﻿import { Vendor } from "./vendor.model";
+import { ErpItem } from "./erp-item.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -12,8 +14,8 @@ export class VendorItem {
 	public variantCode: string;
 	public leadTimeCalc: string;
 	public vendorItemNo: string;
-	public vendor: Models.Vendor;
-	public item: Models.ErpItem;
+	public vendor: Vendor;
+	public item: ErpItem;
 
 
 }

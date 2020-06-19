@@ -1,6 +1,7 @@
-﻿
+﻿import { TrainingClass } from "./training-class.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -9,7 +10,7 @@ export class TrainingClassSeat {
        
 	public seatNumber: number;
 	public student: string;
-	public trainingClass: Models.TrainingClass;
+	public trainingClass: TrainingClass;
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;

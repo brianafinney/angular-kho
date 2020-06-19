@@ -1,6 +1,7 @@
-﻿
+﻿import { TrainingClassSeat } from "./training-class-seat.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -16,7 +17,7 @@ export class TrainingClass {
 	public location: string;
 	public onSite: boolean;
 	public online: boolean;
-	public seats: Models.TrainingClassSeat[];
+	public seats: TrainingClassSeat[];
 	public maxSize: number;
 	public id: number;
 	public insertedBy: string;

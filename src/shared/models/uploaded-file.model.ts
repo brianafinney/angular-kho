@@ -1,13 +1,14 @@
-﻿
+﻿import { BlogItemFile } from "./blog-item-file.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class UploadedFile {
     constructor(  ){}        
        
-	public blogItemFiles: Models.BlogItemFile[];
+	public blogItemFiles: BlogItemFile[];
 	public id: string;
 	public category: string;
 	public filename: string;
@@ -28,7 +29,7 @@ export class UploadedFile {
 export class UploadedFileReturn {
     constructor(  ){}        
        
-	public uploadedFile: Models.UploadedFile;
+	public uploadedFile: UploadedFile;
 	public progress: number;
 
 

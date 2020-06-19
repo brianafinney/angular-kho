@@ -1,6 +1,8 @@
-﻿
+﻿import { PermissionType } from "./permission-type.model";
+import { PermissionRole } from "./permission-role.model";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
@@ -8,9 +10,9 @@ export class RolePermissions {
     constructor(  ){}        
        
 	public permissionRoleId: number;
-	public role: Models.PermissionRole;
+	public role: PermissionRole;
 	public permissionTypeId: number;
-	public permission: Models.PermissionType;
+	public permission: PermissionType;
 	public insertedBy: string;
 	public dateInserted: Date;
 	public modifiedBy: string;

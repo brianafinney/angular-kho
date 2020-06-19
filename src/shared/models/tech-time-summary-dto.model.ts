@@ -1,6 +1,6 @@
 ﻿
 
-import * as Models from '@models/index';
+
 
 
 /*This is the base class used for the summary of tech time as it relates to E-Service tickets*/

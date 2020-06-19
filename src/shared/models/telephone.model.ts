@@ -1,15 +1,17 @@
-﻿
+﻿import { ContactInfo } from "./contact-info.model";
+import { TypeOfTelephone } from "./type-of-address.enum";
 
-import * as Models from '@models/index';
+
+
 
 
 /**/
 export class Telephone {
     constructor(  ){}        
        
-	public telephoneType: Models.TypeOfTelephone;
+	public telephoneType: TypeOfTelephone;
 	public number: string;
-	public contactInfo: Models.ContactInfo;
+	public contactInfo: ContactInfo;
 	public id: number;
 	public insertedBy: string;
 	public dateInserted: Date;
