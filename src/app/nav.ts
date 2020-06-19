@@ -1,6 +1,5 @@
-import { KhoINavData } from '@components/nav-sidebar/kho-inav-data.component';
-
-export const navigation: [
+navigation: any;
+export const navigation:  [
   {
     name: 'Dashboard',
     url: '/dashboard',
