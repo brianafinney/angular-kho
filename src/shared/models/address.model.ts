@@ -1,5 +1,10 @@
 ﻿
 
+import { TypeOfAddress } from "./type-of-address.enum";
+import { UnitedStates } from "./united-states.enum";
+import { ContactInfo } from "./contact-info.model";
+
+
 
 
 
