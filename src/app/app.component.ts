@@ -28,7 +28,7 @@ import {
   refCount,
   map
 } from "rxjs/operators";
-import { DataService } from "./data.service";
+import { DataService } from "../shared/services/data.service";
 
 @Component({
   selector: "my-app",

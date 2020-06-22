@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Observable, of, BehaviorSubject } from 'rxjs';
-import { GraphUser } from '../shared/models/graph-user.model';
+import { GraphUser } from '../models/graph-user.model';
 import { take, share } from 'rxjs/operators';
 import { DataService } from './data.service';
-import { navigation } from './nav';
+import { navigation } from '../../app/nav';
 
 @Injectable({
   providedIn: 'root'
